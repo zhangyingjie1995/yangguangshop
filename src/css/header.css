@@ -19,6 +19,14 @@ header .concent {
     border: 1px solid rgba(214, 214, 214, 0)
 }
 
+.dingwei span {
+    color: black;
+}
+
+.dingwei span:hover {
+    color: red;
+}
+
 .dingwei:hover {
     background-color: #fff;
     border: 1px solid rgba(214, 214, 214, 1)
@@ -192,14 +200,108 @@ ul li:hover .subnav3 {
     margin: 0 auto;
 }
 
+.fqg .gonggao {
+    width: 300px;
+    margin-top: 20px;
+    float: left;
+    margin-bottom: 30px;
+    border-right: 1px solid rgba(214, 214, 214);
+}
+
 .fqg h2 {
     font-size: 16px;
     font-weight: 100;
     color: rgba(214, 214, 214, 1);
+    margin-bottom: 20px;
 }
 
 .fqg p a {
     font-size: 12px;
-    margin: 5px 0;
+    margin: 15px 0;
     color: #999;
+}
+
+.right-ul {
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+    overflow: hidden;
+}
+
+.right-ul ul {
+    float: left;
+    width: 165px;
+}
+
+.right-ul h2 {
+    font-size: 16px;
+    font-weight: 100;
+    color: rgba(214, 214, 214, 1);
+    margin-bottom: 20px;
+}
+
+.right-ul li a {
+    font-size: 12px;
+    margin: 15px 0;
+    color: #999;
+}
+
+.fot {
+    background-color: #343a3a;
+    padding-top: 20px;
+}
+
+.fot .wrp {
+    width: 1210xp;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fot .wrp p a,
+span {
+    color: #fff;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.tu {
+    width: 520px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.tu .tu1 {
+    width: 108px;
+    height: 40px;
+    margin-right: 14px;
+    display: inline-block;
+    background-image: url(../images/yangguang-footer.png);
+}
+
+.tu .tu2 {
+    width: 108px;
+    height: 40px;
+    margin-right: 14px;
+    display: inline-block;
+    background-image: url(../images/yangguang-footer.png);
+    background-position: -122px;
+}
+
+.tu .tu3 {
+    width: 108px;
+    height: 40px;
+    margin-right: 14px;
+    display: inline-block;
+    background-image: url(../images/yangguang-footer.png);
+    background-position: -244px;
+}
+
+.tu .tu4 {
+    width: 108px;
+    height: 40px;
+    margin-right: 14px;
+    display: inline-block;
+    background-image: url(../images/yangguang-footer.png);
+    background-position: 366px;
 }
