@@ -1,0 +1,205 @@
+header {
+    background-color: #f5f5f5;
+    /* overflow: hidden; */
+    font-size: 12px;
+    color: #666666;
+}
+
+header .concent {
+    width: 1210px;
+    height: 35px;
+    margin: 0 auto;
+}
+
+.dingwei {
+    display: inline-block;
+    line-height: 35px;
+    height: 35px;
+    padding: 0 10px;
+    border: 1px solid rgba(214, 214, 214, 0)
+}
+
+.dingwei:hover {
+    background-color: #fff;
+    border: 1px solid rgba(214, 214, 214, 1)
+}
+
+header ul {
+    float: right;
+    line-height: 35px;
+    height: 35px;
+}
+
+header ul li {
+    list-style: none;
+    float: left;
+    margin: 0 10px;
+    padding: 0px 10px;
+    border: 1px solid rgba(214, 214, 214, 0);
+    border-bottom: 0;
+    position: relative;
+}
+
+header ul li a {
+    color: #666666;
+}
+
+.a1 {
+    color: #F30213;
+}
+
+.a2:hover {
+    color: #F30213;
+}
+
+.dingwei:hover {
+    color: #F30213;
+    border: 1px solid rgba(214, 214, 214, );
+}
+
+header ul li:hover {
+    background-color: #fff;
+    border: 1px solid rgba(214, 214, 214, 1);
+    border-bottom: 0;
+}
+
+header ul li:hover>a {
+    color: red;
+}
+
+header ul li:nth-child(1) {
+    border: 0;
+    background-color: #f5f5f5;
+}
+
+header ul>li:nth-child(1):hover {
+    border: 0;
+    background-color: #f5f5f5;
+}
+
+.subnav {
+    display: none;
+    position: absolute;
+    top: 34px;
+    left: -1px;
+    border: 1px solid rgba(214, 214, 214);
+    border-top: 0;
+    width: 68px;
+    text-align: center;
+    background-color: #fff;
+}
+
+header ul>li:hover .subnav {
+    display: block
+}
+
+.subnav p a:hover {
+    color: red;
+}
+
+.subnav2 {
+    display: none;
+    position: absolute;
+    top: 34px;
+    left: -1px;
+    border: 1px solid rgba(214, 214, 214);
+    width: 182px;
+    background-color: #fff;
+}
+
+.subnav2 span {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+header li:hover .subnav2 {
+    display: block
+}
+
+.subnav3 {
+    display: none;
+    position: absolute;
+    top: 34px;
+    left: -1px;
+    width: 68px;
+    text-align: center;
+    border: 1px solid rgba(214, 214, 214);
+    background-color: #fff;
+}
+
+.subnav3>span {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+ul li:hover .subnav3 {
+    display: block;
+    border-top: 0;
+}
+
+
+/* 底部的css样式 */
+
+.ccti {
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    overflow: hidden;
+}
+
+.center {
+    width: 1210px;
+    height: 86px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.center span {
+    display: block;
+    width: 250px;
+    height: 86px;
+    margin: 0 auto;
+    float: left;
+}
+
+.box {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.pic1 {
+    background-image: url("../images/cti.png");
+    background-position: 0px 0px;
+}
+
+.pic2 {
+    background-image: url("../images/cti.png");
+    background-position: -250px 0px;
+}
+
+.pic3 {
+    background-image: url("../images/cti.png");
+    background-position: -500px 0px;
+}
+
+.pic4 {
+    background-image: url("../images/cti.png");
+    background-position: -750px 0px;
+}
+
+.fqg {
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.fqg h2 {
+    font-size: 16px;
+    font-weight: 100;
+    color: rgba(214, 214, 214, 1);
+}
+
+.fqg p a {
+    font-size: 12px;
+    margin: 5px 0;
+    color: #999;
+}

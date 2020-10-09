@@ -1,0 +1,38 @@
+body,
+h1,
+header,
+ul,
+ol,
+p,
+div,
+img,
+li,
+h3,
+h4,
+span,
+h2,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.clear_fix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+li {
+    list-style: none;
+    color: black;
+}
+
+.position {
+    position: relative;
+}
