@@ -1,11 +1,11 @@
-.list {
+.-list {
     width: 1210px;
     margin: 0 auto;
     font-size: 14px;
     padding-bottom: 20px;
 }
 
-.list ul {
+.-list ul {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -13,7 +13,7 @@
     padding: 20px 0;
 }
 
-.list li {
+.-list li {
     width: 204px;
     padding: 10px;
     border: 1px solid #ccc;
@@ -22,7 +22,7 @@
     margin-bottom: 10px;
 }
 
-.list li p {
+.-list li p {
     width: 200px;
     height: 48px;
     line-height: 24px;
@@ -30,14 +30,14 @@
     margin: 0 auto;
 }
 
-.list li img {
+.-list li img {
     width: 200px;
     height: 200px;
     display: block;
     margin: 0 auto;
 }
 
-.list li span {
+.-list li span {
     display: block;
     color: #F30213;
     margin-left: 15px;
@@ -48,24 +48,92 @@
     height: 38px;
     background-color: #f1f1f1;
     margin: 0 auto;
+    border: 1px solid #DDD;
+}
+
+.title-left {
+    height: 38px;
+    float: left;
 }
 
 .list-title-w>div {
     display: inline-block;
-    margin: 0 13px;
+    margin: 0 5px;
 }
 
-.list-title-w>div p {
+.list-title-w>div button {
     float: left;
     height: 20px;
     line-height: 20px;
     background-color: #fff;
-    border: 1px solid #ccc;
     padding: 0 5px;
+    font-size: 12px;
+    margin-top: 9px;
+    border: 0;
+    outline: none;
+}
+
+.list-title-w .both-money {
+    background-color: #fff;
+    padding: 0 10px;
+    height: 38px;
+    float: left;
+}
+
+.list-title-w .both-money>input {
+    width: 40px;
+    height: 16px;
+    border: 1px solid #ccc;
+    outline: none;
+    float: left;
+    color: #ccc;
     font-size: 12px;
     margin-top: 9px;
 }
 
-.list-title-w .both-money input {
-    width: 59px;
+.list-title-w .both-money>.btn {
+    height: 18px;
+    display: inline-block;
+    background-color: #fff;
+    font-size: 12px;
+    padding: 0 5px;
+    margin: 9px 5px;
+    line-height: 20px;
+    color: red;
+    border: 1px solid #ccc;
+    /* display: none; */
+}
+
+.shopnum {
+    height: 38px;
+    float: left;
+    background-color: #fff;
+    padding: 0 5px;
+}
+
+.shopnum em {
+    font-size: 12px;
+    font-style: normal;
+}
+
+.shopnum input {
+    width: 40px;
+    outline: none;
+    height: 18px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin-top: 9px;
+}
+
+.list-title-w .shopnum>.btn {
+    height: 18px;
+    display: inline-block;
+    background-color: #fff;
+    font-size: 12px;
+    padding: 0 5px;
+    margin: 9px 5px;
+    line-height: 20px;
+    color: red;
+    border: 1px solid #ccc;
+    /* display: none; */
 }

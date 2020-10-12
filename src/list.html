@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="../src/css/header.css">
     <link rel="stylesheet" href="../src/css/reset.css">
     <link rel="stylesheet" href="../src/css/list.css">
+    <link rel="stylesheet" href="../src/css/page.css">
     <link rel="stylesheet" href="../src/css/footer.css">
     <link rel="stylesheet" href="../src/css/iconfont/iconfont.css">
     <script src="script/require.js" defer async="true" data-main="script/main.js"></script>
 </head>
+<script src="./script/jquery.pagination.js"></script>
 
 <body>
     <!-- 页面顶部 -->
@@ -97,7 +99,7 @@
                     所有商品分类
                 </p>
             </div>
-            <span><a href="http://192.168.11.2/JS2008/yangguanggouwu_test/src/index1.html">首页</a cl></span>
+            <span><a href="http://192.168.11.2/JS2008/yangguanggouwu_test/src/index1.html">首页</a ></span>
             <span><a href="">TV直播</a></span>
             <span><a href="">跨境频道</a></span>
         </div>
@@ -105,22 +107,34 @@
     <div class="list-title">
         <div class="list-title-w">
             <div class="title-left">
-                <p>默认排序</p>
-                <p>成交量</p>
-                <p>价格<i></i></p>
-                <p>评论</p>
+                <button>默认排序</button>
+                <button>成交量</button>
+                <button>价格升序</button>
+                <button>价格降序</button>
             </div>
             <div class="both-money">
-                <input type="text" value="￥">-
                 <input type="text" value="￥">
+                <input type="text" value="￥">
+                <a class="btn" href="">确定</a>
+            </div>
+            <div class="shopnum">
+                <em>起购量</em>
+                <input type="text">
+                <em>以下</em>
+                <a class="btn" href="">确定</a>
             </div>
 
         </div>
     </div>
-    <div class="list">
+    <!-- 列表渲染 -->
+    <div class="-list">
         <ul>
-
         </ul>
+    </div>
+    <!--分页 -->
+    <div class="pagelist">
+        <div class="m-style page">
+        </div>
     </div>
     <!-- 回到顶部 -->
     <div class="totop ">
@@ -286,3 +300,6 @@
             </div>
         </div>
     </footer>
+</body>
+
+</html>
