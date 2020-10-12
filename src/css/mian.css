@@ -1,0 +1,523 @@
+.banner {
+    background-color: #c5000c;
+}
+
+.banner .banner-w {
+    width: 1210px;
+    margin: 0 auto;
+    background: no-repeat;
+    background-size: 790px 400px;
+    background-image: url('https://pic.cnrmall.com/image/70/0c/700c2f9097622de35f6afdbbdfe12bf9.jpg');
+    background-position: 205px 0px;
+    position: relative;
+}
+
+.banner .banner-w ul {
+    width: 180px;
+    height: 380px;
+    background-color: #6E6568;
+    padding: 10px 0;
+}
+
+.banner .banner-w ul li {
+    line-height: 39px;
+    height: 39px;
+    text-align: center;
+    position: relative;
+}
+
+.banner .banner-w ul a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.banner .banner-w ul a:hover {
+    color: red;
+}
+
+.banner-r {
+    float: right;
+    width: 188px;
+    height: 400px;
+    background-color: rgba(225, 225, 225, 0.7);
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.banner-r h3 {
+    font: 16px;
+    padding: 12px 0;
+}
+
+.banner-r b {
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.banner-r p {
+    padding: 6px;
+    color: #666;
+}
+
+
+/*二级导航部分 */
+
+.nav-t {
+    width: 840px;
+    height: 400px;
+    background-color: #eee;
+    position: absolute;
+    left: 180px;
+    top: -10px;
+    text-align: left;
+    display: none;
+}
+
+.nav-t a b {
+    margin: 0 20px;
+    font-size: 12px;
+    color: black;
+}
+
+.nav-t a span {
+    color: black;
+    padding: 0 8px;
+    border-left: 1px solid #999;
+}
+
+.nav-t span:hover {
+    color: #F30213;
+}
+
+.banner .banner-w ul li:hover .nav-t {
+    display: block;
+}
+
+.banner .banner-w ul li:hover {
+    background-color: #ddd;
+}
+
+
+/*二级导航结束 */
+
+.miaosha {
+    background-color: #f2f2f2;
+    padding: 20px 0 30px 0;
+}
+
+.miaosha .miaosha-w {
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.miaosha .miaosha-w .li1 {
+    width: 198px;
+    background-color: #fff;
+    padding: 12px 0 13px 0;
+    text-align: center;
+    border-right: 1px solid #e7e7e7;
+    float: left;
+}
+
+.miaosha .miaosha-w h2 {
+    width: 1196px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 26px;
+    color: #fff;
+    background-color: red;
+    font-weight: 100;
+    text-indent: 20px;
+}
+
+.miaosha .miaosha-w img {
+    width: 130px;
+    height: 130px;
+    margin: 17px 20px;
+    text-align: center;
+}
+
+.miaosha .miaosha-w p {
+    font-size: 12px;
+    padding: 0px 15px;
+    color: silver;
+}
+
+.miaosha .miaosha-w b {
+    font-size: 16px;
+    color: red;
+    padding: 0 15px;
+    text-align: left;
+}
+
+.miaosha .miaosha-w del {
+    color: #999;
+}
+
+.food {
+    background-color: #f2f2f2;
+}
+
+.food .food-left {
+    position: relative;
+    width: 600px;
+    border-right: 1px black solid;
+    display: inline-block;
+}
+
+.food-right {
+    border: 0 !important;
+}
+
+.food .food-w {
+    width: 1210px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.food .food-w .food-h {
+    background-color: #ebb423;
+}
+
+.food .food-w h2 {
+    height: 55px;
+    line-height: 55px;
+    font-size: 26px;
+    color: #fff;
+    font-weight: 100;
+    text-indent: 20px;
+    margin-bottom: 10px;
+}
+
+.log1 {
+    display: inline-block;
+}
+
+.log2 {
+    width: 190px;
+    height: 130px;
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    border: 1px #999 solid;
+    border-left: 0px;
+    border-top: 0;
+}
+
+.log2 img {
+    position: absolute;
+    top: 15px;
+    left: 80px
+}
+
+.log2 h5 {
+    color: orange;
+    font-size: 14px;
+    position: absolute;
+    left: 15px;
+    top: 10px
+}
+
+.log2 p {
+    position: absolute;
+    left: 15px;
+    top: 30px;
+    font-size: 12px;
+}
+
+.log2 span {
+    position: absolute;
+    left: 15px;
+    top: 45px;
+    color: black;
+    font-size: 12px;
+}
+
+.log3 {
+    width: 190px;
+    height: 130px;
+    position: absolute;
+    top: 0px;
+    left: 400px;
+}
+
+.log3 img {
+    position: absolute;
+    top: 15px;
+    left: 80px
+}
+
+.log3 h5 {
+    color: orange;
+    font-size: 14px;
+    position: absolute;
+    left: 15px;
+    top: 10px
+}
+
+.log3 p {
+    position: absolute;
+    left: 15px;
+    top: 30px;
+    font-size: 12px;
+}
+
+.log3 span {
+    position: absolute;
+    left: 15px;
+    top: 45px;
+    color: black;
+    font-size: 12px;
+}
+
+.log4 {
+    width: 190px;
+    height: 130px;
+    position: absolute;
+    top: 130px;
+    left: 210px;
+}
+
+.log4 img {
+    position: absolute;
+    top: 15px;
+    left: 80px
+}
+
+.log4 h5 {
+    color: orange;
+    font-size: 14px;
+    position: absolute;
+    left: 15px;
+    top: 10px
+}
+
+.log4 p {
+    position: absolute;
+    left: 15px;
+    top: 30px;
+    font-size: 12px;
+}
+
+.log4 span {
+    position: absolute;
+    left: 15px;
+    top: 45px;
+    color: black;
+    font-size: 12px;
+}
+
+.log5 {
+    width: 190px;
+    height: 130px;
+    position: absolute;
+    top: 130px;
+    left: 400px;
+    border: 1px #999 solid;
+    border-right: 0px;
+    border-bottom: 0;
+}
+
+.log5 img {
+    position: absolute;
+    top: 15px;
+    left: 80px
+}
+
+.log5 h5 {
+    color: orange;
+    font-size: 14px;
+    position: absolute;
+    left: 15px;
+    top: 10px
+}
+
+.log5 p {
+    position: absolute;
+    left: 15px;
+    top: 30px;
+    font-size: 12px;
+}
+
+.log5 span {
+    position: absolute;
+    left: 15px;
+    top: 45px;
+    color: black;
+    font-size: 12px;
+}
+
+.food-b img {
+    width: 184px;
+    padding: 15px 0;
+    margin-left: 8px;
+}
+
+
+/* 护肤品3个 */
+
+.hufupin {
+    background-color: #f2f2f2;
+}
+
+.hufupin-w {
+    width: 1210px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 20px;
+}
+
+.hufupin-w .title {
+    background-color: #cd375e;
+    width: 397px;
+    height: 58px;
+}
+
+.hufupin-w .title h2 {
+    color: #fff;
+    line-height: 58px;
+    margin-left: 20px;
+    font-weight: 100;
+}
+
+.b-0 {
+    display: inline-block;
+    position: relative;
+}
+
+.b-0:nth-child(2) {
+    margin: 0 4px;
+}
+
+.b-1 {
+    width: 377px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.b-2 {
+    width: 190px;
+    height: 130px;
+    position: absolute;
+    left: 206px;
+    top: 58px;
+    background-color: #fff;
+}
+
+.b-2 img {
+    position: absolute;
+    left: 80px;
+    top: 10px;
+}
+
+.b-2 p {
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    font-size: 14px;
+    color: red;
+}
+
+.b-2 b {
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.b-3 {
+    width: 190px;
+    height: 130px;
+    position: absolute;
+    left: 206px;
+    top: 200px;
+    background-color: #fff;
+}
+
+.b-3 img {
+    position: absolute;
+    left: 80px;
+    top: 10px;
+}
+
+.b-3 p {
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    font-size: 14px;
+    color: red;
+}
+
+.b-3 b {
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.like {
+    background-color: #f2f2f2;
+    padding-top: 20px;
+}
+
+.like-w {
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.like-w h3 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 100;
+    padding: 0px 50px 20px 50px;
+    color: #333;
+}
+
+.list {
+    width: 1210px;
+    margin: 0 auto;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.list ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.list li {
+    width: 204px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.list li p {
+    width: 200px;
+    height: 48px;
+    line-height: 24px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.list li img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.list li span {
+    display: block;
+    color: #F30213;
+    margin-left: 15px;
+}

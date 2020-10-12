@@ -1,0 +1,157 @@
+.ccti {
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    overflow: hidden;
+}
+
+.center {
+    width: 1210px;
+    height: 86px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.center span {
+    display: block;
+    width: 250px;
+    height: 86px;
+    margin: 0 auto;
+    float: left;
+}
+
+.box {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.pic1 {
+    background-image: url("../images/cti.png");
+    background-position: 0px 0px;
+}
+
+.pic2 {
+    background-image: url("../images/cti.png");
+    background-position: -250px 0px;
+}
+
+.pic3 {
+    background-image: url("../images/cti.png");
+    background-position: -500px 0px;
+}
+
+.pic4 {
+    background-image: url("../images/cti.png");
+    background-position: -750px 0px;
+}
+
+.fqg {
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.fqg .gonggao {
+    width: 300px;
+    margin-top: 20px;
+    float: left;
+    margin-bottom: 30px;
+    border-right: 1px solid rgba(214, 214, 214);
+}
+
+.fqg h2 {
+    font-size: 16px;
+    font-weight: 100;
+    color: rgba(214, 214, 214, 1);
+    margin-bottom: 20px;
+}
+
+.fqg p a {
+    font-size: 12px;
+    margin: 15px 0;
+    color: #999;
+}
+
+.right-ul {
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+    overflow: hidden;
+}
+
+.right-ul>ul {
+    float: left;
+    width: 165px;
+}
+
+.right-ul h2 {
+    font-size: 16px;
+    font-weight: 100;
+    color: rgba(214, 214, 214, 1);
+    margin-bottom: 20px;
+}
+
+.right-ul li a {
+    font-size: 12px;
+    margin: 15px 0;
+    color: #999;
+}
+
+.fot {
+    background-color: #343a3a;
+    padding-top: 20px;
+}
+
+.fot .wrp {
+    width: 1210xp;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fot>.wrp>p>a,
+span {
+    color: #fff;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.tu {
+    width: 520px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.tu .tu1 {
+    width: 108px;
+    height: 40px;
+    margin-right: 14px;
+    display: inline-block;
+    background-image: url(../images/yangguang-footer.png);
+}
+
+.tu .tu2 {
+    width: 108px;
+    height: 40px;
+    margin-right: 14px;
+    display: inline-block;
+    background-image: url(../images/yangguang-footer.png);
+    background-position: -122px;
+}
+
+.tu .tu3 {
+    width: 108px;
+    height: 40px;
+    margin-right: 14px;
+    display: inline-block;
+    background-image: url(../images/yangguang-footer.png);
+    background-position: -244px;
+}
+
+.tu .tu4 {
+    width: 108px;
+    height: 40px;
+    margin-right: 14px;
+    display: inline-block;
+    background-image: url(../images/yangguang-footer.png);
+    background-position: 486px;
+}
