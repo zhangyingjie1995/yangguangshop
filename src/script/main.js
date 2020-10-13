@@ -1,3 +1,5 @@
 require(['goodlist']);
 require(['gotop']);
-require(['list'])
+require(['list']);
+require(['detail']);
+require(['cart']);
